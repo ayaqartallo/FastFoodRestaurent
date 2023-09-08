@@ -83,4 +83,20 @@ body{
   .slick-slide button:hover {
     background-color: #ff9900;
   }
-  
+  @media (max-width: 800px) {
+    .slick-slide div {
+      margin: 0 auto;
+      width: 80%;
+    }
+    .slick-dots {
+      margin-left: -100px;
+      margin-top: 50px;
+    }
+    .slick-slide button {
+      margin-top: 20px;
+      margin: auto 30%;      
+    }
+    .slick-slide p {
+      margin: 5%;
+    }
+  }

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200;400&family=Dancing+Script:wght@700&display=swap');
 
+body{
+  overflow-x: hidden;
+}
 .sales-container {
     display: flex;
     justify-content: space-between;
@@ -47,7 +50,7 @@
     margin-top: 10px; 
     margin-bottom: 10px;
     color: #fff;
-    margin-left: -100px;
+    margin-left: -200px;
   }
   
   .sales p {
@@ -56,6 +59,7 @@
     font-family: 'Amiri', serif;
     font-family: 'Cairo', sans-serif;
     font-family: 'Dancing Script', cursive;
+    margin-left: -200px;
   }
   
   .sales button {
@@ -72,4 +76,44 @@
   .sales button:hover {
     background-color: #ff9900;
   }
+  @media (max-width:800px) {
+    .sales-container {
+      flex-direction: column;
+      align-items: center;
+    }
   
+    .sales {
+      margin: 0;
+      width: 70%;
+    }
+  
+    .sales:first-child {
+      margin-top: 20px; 
+      margin-left: 20px;
+    }
+  
+    .sales:last-child {
+      margin-bottom: 20px; 
+      margin-left: 80px;
+    }
+  
+    .sales-image-column {
+      padding: 0; 
+    }
+  
+    .sales-content {
+      text-align: center; 
+      padding: 20px;
+    }
+  
+    .sales h1 {
+      margin-left: -200px; 
+    }
+    .sales p{
+      margin-left: -50px;
+    }
+    .sales-image{
+      max-width: 100px;
+      height: 100px;
+    }
+  }

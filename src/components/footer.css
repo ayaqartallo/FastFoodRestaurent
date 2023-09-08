@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200;400&family=Dancing+Script:wght@700&display=swap');
-
+body{
+  overflow-x: hidden;
+}
 .main-footer{
     color: #fff;
     background-color: #333;
@@ -64,4 +66,12 @@
   .row .copyp{
     text-align: center;
     width: 100%;
+  }
+  @media (max-width: 800px){
+    .main-footer{
+      max-width: 80%;
+    }
+    .row{
+      flex-direction: column;
+    }
   }
