@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200;400&family=Dancing+Script:wght@700&display=swap');
+
+.sales-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sales {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; 
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
+  .sales-image-column {
+    flex: 1; 
+    padding: 10px;
+  }
+  
+  .sales-content {
+    flex: 1; 
+    text-align: left;
+    padding-left: 20px; 
+  }
+  .sales:first-child{
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .sales:last-child{
+    margin-right: 100px;
+    margin-top: 100px;
+  }
+  .sales-image {
+    max-width: 100%;
+    height: 80%;
+    border: 3px solid #ffcc00;
+    border-radius: 50%; 
+  }
+  
+  .sales h1 {
+    font-size: 24px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: -100px;
+  }
+  
+  .sales p {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Amiri', serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .sales button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sales button:hover {
+    background-color: #ff9900;
+  }
+  

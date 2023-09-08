@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200;400&family=Dancing+Script:wght@700&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+.slick-slider {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .slick-slide {
+    transition: transform 0.3s ease-in-out;
+    outline: none; 
+  }
+  
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+    top: 300px;
+    transform: translateX(-50%);
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button:before {
+    content: '●';
+    font-size: 12px;
+    color: #fff; 
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ffcc00; 
+    opacity: 1;
+  }
+  
+  .slick-slide div {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+    float: left;
+    margin-left: 100px;
+  }
+  
+  .slick-slide h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Amiri', serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -200px;
+  }
+  
+  .slick-slide p {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .slick-slide button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .slick-slide button:hover {
+    background-color: #ff9900;
+  }
+  

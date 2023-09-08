@@ -1,0 +1,93 @@
+.menu {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: -200px;
+  }
+  
+  #buttons {
+    margin-bottom: 20px;
+  }
+  
+  .button-value {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px;
+  }
+  
+  .button-value:hover, .button-value:active {
+    background-color: #333;
+    color: #fff;
+  }
+  .card{
+    width: 300px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 20px;
+    color: #fff;
+  }
+  .card-image{
+    background-color: #eee;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 50px; 
+    justify-items: center; 
+
+  }
+  h2.card-title{
+    color: #fff;
+    text-align: left;
+  }
+  p{
+    text-align: left ;
+  }
+  .price-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+  }
+  .icon-container{
+    margin-left: auto;
+  }
+  .price-container p {
+    margin-right: 10px; 
+  }
+  .price-container a{
+    background-color: #ffcc00;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+.view-div{
+    margin-top: 50px;
+}
+.view-div a{
+    background-color: #ffcc00;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
