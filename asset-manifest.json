@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FastFoodRestaurent/static/css/main.c5a866c6.css",
-    "main.js": "/FastFoodRestaurent/static/js/main.70f17b26.js",
+    "main.js": "/FastFoodRestaurent/static/js/main.40eacab3.js",
     "static/js/787.653b8604.chunk.js": "/FastFoodRestaurent/static/js/787.653b8604.chunk.js",
     "static/media/f5.png": "/FastFoodRestaurent/static/media/f5.bdb24a6bfa2491d23209.png",
     "static/media/f1.png": "/FastFoodRestaurent/static/media/f1.17f63e75a79fc7a8740c.png",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/FastFoodRestaurent/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FastFoodRestaurent/index.html",
     "main.c5a866c6.css.map": "/FastFoodRestaurent/static/css/main.c5a866c6.css.map",
-    "main.70f17b26.js.map": "/FastFoodRestaurent/static/js/main.70f17b26.js.map",
+    "main.40eacab3.js.map": "/FastFoodRestaurent/static/js/main.40eacab3.js.map",
     "787.653b8604.chunk.js.map": "/FastFoodRestaurent/static/js/787.653b8604.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a866c6.css",
-    "static/js/main.70f17b26.js"
+    "static/js/main.40eacab3.js"
   ]
 }
