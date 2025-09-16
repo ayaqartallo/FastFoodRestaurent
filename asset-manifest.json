@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/FastFoodRestaurent/static/css/main.c5a866c6.css",
+    "main.js": "/FastFoodRestaurent/static/js/main.70f17b26.js",
+    "static/js/787.653b8604.chunk.js": "/FastFoodRestaurent/static/js/787.653b8604.chunk.js",
+    "static/media/f5.png": "/FastFoodRestaurent/static/media/f5.bdb24a6bfa2491d23209.png",
+    "static/media/f1.png": "/FastFoodRestaurent/static/media/f1.17f63e75a79fc7a8740c.png",
+    "static/media/f6.png": "/FastFoodRestaurent/static/media/f6.b64aa1807ae7647f37c8.png",
+    "static/media/f3.png": "/FastFoodRestaurent/static/media/f3.326f89cfe13b0082e3b5.png",
+    "static/media/f4.png": "/FastFoodRestaurent/static/media/f4.25a01dcd448e21154653.png",
+    "static/media/about-img.png": "/FastFoodRestaurent/static/media/about-img.981b27cc5bd7cbeae7ac.png",
+    "static/media/f9.png": "/FastFoodRestaurent/static/media/f9.ee51242ed11eb5c32770.png",
+    "static/media/fastfood.jpg": "/FastFoodRestaurent/static/media/fastfood.f005a6143bcab74b9dfe.jpg",
+    "static/media/f7.png": "/FastFoodRestaurent/static/media/f7.8bd1009d295dee9d0e59.png",
+    "static/media/f8.png": "/FastFoodRestaurent/static/media/f8.bbf75915b57d5c41997b.png",
+    "static/media/f2.png": "/FastFoodRestaurent/static/media/f2.9157aed0d4393c8ed4ab.png",
+    "static/media/pizza.jpeg": "/FastFoodRestaurent/static/media/pizza.b9906796cd3c5be87907.jpeg",
+    "static/media/slick.svg": "/FastFoodRestaurent/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/FastFoodRestaurent/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/FastFoodRestaurent/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/FastFoodRestaurent/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/FastFoodRestaurent/index.html",
+    "main.c5a866c6.css.map": "/FastFoodRestaurent/static/css/main.c5a866c6.css.map",
+    "main.70f17b26.js.map": "/FastFoodRestaurent/static/js/main.70f17b26.js.map",
+    "787.653b8604.chunk.js.map": "/FastFoodRestaurent/static/js/787.653b8604.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5a866c6.css",
+    "static/js/main.70f17b26.js"
+  ]
+}
